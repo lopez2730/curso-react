@@ -27,6 +27,7 @@ function useFilters () {
   return {filters, filterProducts, setFilters}
 }
 
+//prueba de commit automatico
 function App() {
   const [products] = useState(initialProducts)
   const {filters, filterProducts, setFilters} = useFilters()
